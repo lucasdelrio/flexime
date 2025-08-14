@@ -1,0 +1,97 @@
+{
+  "id": "hip_opener",
+  "title": "Hip Opener Flow",
+  "coverVariant": "hips",
+  "totalTimeSec": 330,
+  "source": {
+    "kind": "none"
+  },
+  "meta": {
+    "createdAt": 1739596800000,
+    "createdBy": "user",
+    "language": "es-AR",
+    "license": "private"
+  },
+  "tags": [
+    "hips",
+    "legs",
+    "lower-body"
+  ],
+  "steps": [
+    {
+      "id": "1",
+      "title": "Sentadilla profunda",
+      "description": "Talones apoyados, abre cadera",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Lunge con torsión",
+      "description": "Rodilla alineada, gira torso",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Pigeon pose",
+      "description": "Respira profundo",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Círculos de cadera en cuadrupedia",
+      "description": "Amplios y controlados",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Bridge dinámico",
+      "description": "Activa glúteos",
+      "type": "reps",
+      "reps": 15,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "90/90 stretch",
+      "description": "Inclínate al frente",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    }
+  ]
+}

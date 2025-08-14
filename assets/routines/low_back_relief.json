@@ -1,0 +1,95 @@
+{
+  "id": "low_back_relief",
+  "title": "Low Back Relief",
+  "coverVariant": "lowBack",
+  "totalTimeSec": 330,
+  "source": {
+    "kind": "none"
+  },
+  "meta": {
+    "createdAt": 1739596800000,
+    "createdBy": "user",
+    "language": "es-AR",
+    "license": "private"
+  },
+  "tags": [
+    "back",
+    "lumbar",
+    "spine"
+  ],
+  "steps": [
+    {
+      "id": "1",
+      "title": "Child's pose",
+      "description": "Relaja cadera y espalda baja",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Gato/Vaca",
+      "description": "Flexión y extensión",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Twist supino",
+      "description": "Rodillas juntas",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Bridge suave",
+      "description": "Eleva cadera",
+      "type": "reps",
+      "reps": 12,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Isquios en supino",
+      "description": "Banda o toalla",
+      "type": "hold",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Knees to chest",
+      "description": "Respira",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    }
+  ]
+}

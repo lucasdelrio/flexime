@@ -1,0 +1,94 @@
+{
+  "id": "shoulder_reset",
+  "title": "Shoulder Reset",
+  "coverVariant": "shoulders",
+  "totalTimeSec": 230,
+  "source": {
+    "kind": "none"
+  },
+  "meta": {
+    "createdAt": 1739596800000,
+    "createdBy": "user",
+    "language": "es-AR",
+    "license": "private"
+  },
+  "tags": [
+    "shoulders",
+    "upper-body"
+  ],
+  "steps": [
+    {
+      "id": "1",
+      "title": "Círculos de hombros",
+      "description": "Gira adelante y atrás",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Ángeles de pared",
+      "description": "Escápulas pegadas",
+      "type": "hold",
+      "durationSec": 45,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Elevaciones en Y",
+      "description": "Pulgares hacia arriba",
+      "type": "reps",
+      "reps": 12,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Rotaciones externas con banda",
+      "description": "Codo al cuerpo",
+      "type": "reps",
+      "reps": 12,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Estiramiento pectoral en puerta",
+      "description": "Sin forzar",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Plancha alta con toques",
+      "description": "Cadera estable",
+      "type": "reps",
+      "reps": 12,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "end"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "full_body_wakeup",
+  "title": "Full Body Wake‑Up",
+  "coverVariant": "fullBody",
+  "totalTimeSec": 655,
+  "source": {
+    "kind": "none"
+  },
+  "meta": {
+    "createdAt": 1739596800000,
+    "createdBy": "user",
+    "language": "es-AR",
+    "license": "private"
+  },
+  "tags": [
+    "full-body",
+    "beginner"
+  ],
+  "steps": [
+    {
+      "id": "1",
+      "title": "Respiración 90/90",
+      "description": "Inhala nariz 4s, exhala 4s",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Sentadilla profunda",
+      "description": "Talones apoyados, pecho alto",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Gato/Vaca columna",
+      "description": "Mové vértebra por vértebra",
+      "type": "flow",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Rotaciones torácicas",
+      "description": "Cadera estable, abre pecho",
+      "type": "flow",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Estiramiento femoral dinámico",
+      "description": "Alterna controlado",
+      "type": "flow",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Puente de glúteos",
+      "description": "Empuja talones, pelvis neutra",
+      "type": "reps",
+      "reps": 12,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Movilidad de tobillo",
+      "description": "Rodilla adelante sin levantar talón",
+      "type": "flow",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Ángel de pared",
+      "description": "Escápulas pegadas, baja costillas",
+      "type": "hold",
+      "durationSec": 45,
+      "restSec": 15,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Rotación cervical suave",
+      "description": "No fuerces, respirá",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Pigeon suave (cada lado)",
+      "description": "Respirá profundo",
+      "type": "hold",
+      "durationSec": 90,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "halfway",
+        "end"
+      ]
+    }
+  ]
+}

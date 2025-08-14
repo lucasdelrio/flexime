@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Flexime",
+    "slug": "flexime",
+    "scheme": "flexime",
+    "version": "1.0.0",
+
+    "runtimeVersion": { "policy": "sdkVersion" },
+
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": { "origin": false },
+      "eas": {
+        "projectId": "264ca5b5-f3d3-4ba2-96f2-f8a8352165a4"
+      }
+    },
+
+    "updates": {                                             
+      "url": "https://u.expo.dev/264ca5b5-f3d3-4ba2-96f2-f8a8352165a4"
+    },
+
+    "ios": { "bundleIdentifier": "com.odis.flexime" },
+    "android": { "package": "com.odis.flexime" },
+    "newArchEnabled": true,
+    "owner": "lucasdelrio"
+  }
+}

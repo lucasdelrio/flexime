@@ -1,0 +1,94 @@
+{
+  "id": "ankle_foot_flow",
+  "title": "Ankle & Foot Flow",
+  "coverVariant": "footAnkle",
+  "totalTimeSec": 335,
+  "source": {
+    "kind": "none"
+  },
+  "meta": {
+    "createdAt": 1739596800000,
+    "createdBy": "user",
+    "language": "es-AR",
+    "license": "private"
+  },
+  "tags": [
+    "foot",
+    "ankle",
+    "lower-body"
+  ],
+  "steps": [
+    {
+      "id": "1",
+      "title": "Rotaciones de tobillo",
+      "description": "Ambos lados",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 5,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Flexión dorsal con pared",
+      "description": "Rodilla adelante, talón abajo",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 5,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Extensión plantar",
+      "description": "Empuja con los dedos",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 5,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Estiramiento de gemelos",
+      "description": "Pierna extendida",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Saltitos suaves",
+      "description": "Descalzo si cómodo",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 5,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Masaje plantar",
+      "description": "Pelota pequeña",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 5,
+      "cues": [
+        "start",
+        "end"
+      ]
+    }
+  ]
+}

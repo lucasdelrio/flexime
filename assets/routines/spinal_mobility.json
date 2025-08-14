@@ -1,0 +1,94 @@
+{
+  "id": "spinal_mobility",
+  "title": "Spinal Mobility Flow",
+  "coverVariant": "spine",
+  "totalTimeSec": 360,
+  "source": {
+    "kind": "none"
+  },
+  "meta": {
+    "createdAt": 1739596800000,
+    "createdBy": "user",
+    "language": "es-AR",
+    "license": "private"
+  },
+  "tags": [
+    "spine",
+    "back",
+    "full-body"
+  ],
+  "steps": [
+    {
+      "id": "1",
+      "title": "Cat/Cow lento",
+      "description": "Vértebra por vértebra",
+      "type": "flow",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Segmental roll down",
+      "description": "Baja vértebra a vértebra",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Twist torácico",
+      "description": "Cadera estable",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Extensión en esfinge",
+      "description": "Abre pecho",
+      "type": "hold",
+      "durationSec": 60,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Child's pose lateral",
+      "description": "Camina manos a un lado",
+      "type": "hold",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Rock back",
+      "description": "Peso atrás",
+      "type": "flow",
+      "durationSec": 45,
+      "restSec": 10,
+      "cues": [
+        "start",
+        "end"
+      ]
+    }
+  ]
+}
