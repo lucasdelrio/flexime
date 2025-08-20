@@ -27,8 +27,8 @@ function IconFor({ variant }: { variant: Variant | undefined }) {
     case 'shoulders': return <MaterialCommunityIcons name="arm-flex" size={28} color="white" />;
     case 'hips':      return <MaterialCommunityIcons name="human-male" size={28} color="white" />;
     case 'footAnkle': return <MaterialCommunityIcons name="foot-print" size={28} color="white" />;
-    case 'lowBack':   return <MaterialCommunityIcons name="spine" size={28} color="white" />;
-    case 'spine':     return <MaterialCommunityIcons name="spine" size={28} color="white" />;
+    case 'lowBack':   return <MaterialCommunityIcons name="human" size={28} color="white" />;
+    case 'spine':     return <MaterialCommunityIcons name="human" size={28} color="white" />;
     default:          return null;
   }
 }

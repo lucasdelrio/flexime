@@ -1,1 +1,1 @@
-export { saveRoutine, loadUserSaved, deleteRoutine } from './routines';
+export { saveRoutine, deleteRoutine, loadAll as loadUserSaved } from './routines';

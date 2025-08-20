@@ -3,7 +3,8 @@
     "target": "ES2020",
     "module": "ESNext",
     "jsx": "react-jsx",
-    "moduleResolution": "Node",
+
+    "moduleResolution": "bundler",          // <- important
     "strict": true,
     "resolveJsonModule": true,
     "allowJs": false,
@@ -11,17 +12,10 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+
     "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "src/*"
-      ]
-    }
+    "paths": { "~/*": ["src/*"] }
   },
-  "include": [
-    "app",
-    "src",
-    "assets"
-  ],
+  "include": ["app", "src", "assets"],
   "extends": "expo/tsconfig.base"
 }

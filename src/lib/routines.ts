@@ -1,54 +1,37 @@
-import * as FileSystem from 'expo-file-system';
-import type { Routine } from '~/types/routine';
-import PRELOADED from '../../assets/routines/registry';
+// src/lib/routines.ts
+// Web-safe routines storage using AsyncStorage (no expo-file-system)
 
-const DIR = FileSystem.documentDirectory + 'routines/';
+import type { Routine } from "~/types/routine";
+import PRELOADED from "../../assets/routines/registry";
 
-export async function ensureDir() {
-  const info = await FileSystem.getInfoAsync(DIR);
-  if (!info.exists) {
-    await FileSystem.makeDirectoryAsync(DIR, { intermediates: true });
-  }
-}
+import {
+  saveRoutine as saveRoutineStore,
+  loadRoutine as loadRoutineStore,
+  loadAll as loadAllStore,
+  deleteRoutine as deleteRoutineStore,
+  sumDurations as sumDurationsStore,
+  preloadRoutines,
+} from "~/store/routines";
 
+// Return the routines you bundled inside assets (preloaded defaults)
 export async function loadPreloaded(): Promise<Routine[]> {
   return PRELOADED as unknown as Routine[];
 }
 
-export async function loadUserSaved(): Promise<Routine[]> {
-  await ensureDir();
-  const files = await FileSystem.readDirectoryAsync(DIR);
-  const routines: Routine[] = [];
-  for (const file of files) {
-    if (!file.endsWith('.json')) continue;
-    const raw = await FileSystem.readAsStringAsync(DIR + file);
-    routines.push(JSON.parse(raw));
-  }
-  return routines;
-}
-
+// Load both preloaded + user-saved routines
 export async function loadAll(): Promise<Routine[]> {
-  const [pre, user] = await Promise.all([loadPreloaded(), loadUserSaved()]);
-  return [...pre, ...user];
+  // Make sure defaults are saved at least once
+  await preloadRoutines(PRELOADED as unknown as Routine[]);
+  return loadAllStore();
 }
 
-export async function saveRoutine(r: Routine) {
-  await ensureDir();
-  const path = DIR + `${r.id}.json`;
-  await FileSystem.writeAsStringAsync(path, JSON.stringify(r));
-  return path;
-}
+// Re-export the helpers from the store
+export const saveRoutine = saveRoutineStore;
+export const loadRoutine = loadRoutineStore;
+export const deleteRoutine = deleteRoutineStore;
 
-export async function deleteRoutine(id: string) {
-  await ensureDir();
-  const path = DIR + `${id}.json`;
-  const info = await FileSystem.getInfoAsync(path);
-  if (info.exists) {
-    await FileSystem.deleteAsync(path, { idempotent: true });
-  }
-}
-
-export function sumDurations(steps: Routine['steps']): number {
+// Keep the same signature you had before: sumDurations(steps)
+export function sumDurations(steps: Routine["steps"]): number {
   return steps.reduce((acc, s) => {
     const main = s.durationSec ?? 0;
     const rest = s.restSec ?? 0;
