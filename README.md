@@ -1,5 +1,7 @@
 # Flexime — Expo Starter
 
+Flexime is a mobile app built with Expo that helps people improve mobility, prevent injuries, and reduce pain through simple, guided routines.
+
 Unified mobility app with:
 - **Home** (Train Now hero), **Explore** (by body part), **Create/Build/Run**
 - **Preloaded routines** (6 categories)
